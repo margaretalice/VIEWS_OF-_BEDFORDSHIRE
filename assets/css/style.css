@@ -35,8 +35,6 @@ body {
 
 
 
-
-
 .opaque-overlay {
 
     position: absolute;
@@ -48,25 +46,25 @@ body {
     height: 100%;
 
     width: 100%;
-    
-    background-color: rgba(0, 0, 0, 0.5);
-}
 
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
 
 h1 {
 
     padding-top: 5%;
 
     font-size: 5.5em;
-   color: #ffffff;
+  color:#ffffff;
 
 }
 
 
 
-.p {
+h2 {
 
-    font-size: 2em;
+    font-size: 2.5em;
     color:#ffffff;
 
 }
@@ -97,17 +95,28 @@ h1 {
     justify-content: center;
 }
 
-.opaque-overlay {
+.about-row {
 
-    position: absolute;
 
-    top: 0;
+    font-size: 3.5em;
 
-    left: 0;
+    line-height:1; 
+    color:#ffffff;
 
-    height: 100%;
-
-    width: 100%;
-    
-    background-color: rgba(0, 0, 0, 0.5);
 }
+
+.about-p {
+    
+    color:#ffffff;
+}
+
+
+
+
+
+   
+
+
+
+
+
