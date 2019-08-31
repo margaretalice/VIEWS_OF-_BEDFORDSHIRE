@@ -1,0 +1,113 @@
+body {
+    font-family:nobile, sans-serif;
+}
+
+
+.container-top {
+
+    height: 100vh;
+
+
+
+    background: url('../images/wrest-park-bedfordshire.jpg') no-repeat center center fixed;
+
+    -webkit-background-size: cover;
+
+    -moz-background-size: cover;
+
+    -o-background-size: cover;
+
+    background-size: cover;
+
+
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+
+
+    position: relative;
+
+}
+
+
+
+
+
+.opaque-overlay {
+
+    position: absolute;
+
+    top: 0;
+
+    left: 0;
+
+    height: 100%;
+
+    width: 100%;
+    
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+h1 {
+
+    padding-top: 5%;
+
+    font-size: 5.5em;
+   color: #ffffff;
+
+}
+
+
+
+.p {
+
+    font-size: 2em;
+    color:#ffffff;
+
+}
+
+#about-us {
+    
+
+   height: 100vh;
+
+
+
+    background: url('../images/Woburn Abbey.jpg') no-repeat center center fixed;
+
+    -webkit-background-size: cover;
+
+    -moz-background-size: cover;
+
+    -o-background-size: cover;
+
+    background-size: cover;
+
+
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+}
+
+.opaque-overlay {
+
+    position: absolute;
+
+    top: 0;
+
+    left: 0;
+
+    height: 100%;
+
+    width: 100%;
+    
+    background-color: rgba(0, 0, 0, 0.5);
+}
