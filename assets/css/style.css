@@ -3,6 +3,12 @@ body {
 }
 
 
+
+   
+
+
+
+
 .container-top {
 
     height: 100vh;
@@ -57,6 +63,7 @@ h1 {
 
     font-size: 5.5em;
   color:#ffffff;
+  transition: 2s;
 
 }
 
@@ -66,6 +73,7 @@ h2 {
 
     font-size: 2.5em;
     color:#ffffff;
+    transition: 2s
 
 }
 
@@ -96,9 +104,11 @@ h2 {
 }
 
 .about-row {
+  margin-left:15px;
 
 
-    font-size: 3.5em;
+    font-size:3.5em;
+    font-weight: 300;
 
     line-height:1; 
     color:#ffffff;
@@ -108,15 +118,129 @@ h2 {
 .about-p {
     
     color:#ffffff;
+    line-height:1.5;
+}
+
+#events {
+   
+    height:100vh;
+     background: url('../images/978920[1].jpg') no-repeat center center fixed;
+
+    -webkit-background-size: cover;
+
+    -moz-background-size: cover;
+
+    -o-background-size: cover;
+
+    background-size: cover;
+
+
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+    
+}
+
+.opaque-overlay {
+
+    position: absolute;
+
+    top: 0;
+
+    left: 0;
+
+    height: 100%;
+
+    width: 100%;
+
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.card-body .row {
+
+    text-align: center;
+
+    padding-top: 10px;
+
 }
 
 
 
+.project-cards {
 
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+
+
+.col-xs-6 {
+
+    align-items: center;
+
+}
+
+
+.card {
+
+    background-color: #fdfdfd;
+
+    border-radius: 2.5%;
+
+    width: 18em;
+
+    height: 18em;
+
+    top: 50%;
+
+    left: 50%;
+
+    margin: 15% auto;
+
+ 
+
+    align-items: center;
+
+  
+
+    display: block;
+
+  
+
+    transition: all .3s ease-in;
+
+    -moz-transition: all .3s ease-in;
+
+    -webkit-transition: all .3s ease-in;
+
+}
+
+
+ 
+
+
+
+
+
+
+
+  
+
+  
+
+    
+  
 
    
-
-
 
 
 
